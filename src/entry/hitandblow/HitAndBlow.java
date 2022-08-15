@@ -17,10 +17,10 @@ public class HitAndBlow {
         correct.add(String.valueOf(numbers.remove(0)));
         correct.add(String.valueOf(numbers.remove(0)));
 
-        for (String hoge : correct) {
-            System.out.print(hoge);
-        }
-        System.out.println();
+        // for (String hoge : correct) {
+        //     System.out.print(hoge);
+        // }
+        // System.out.println();
 
         try (Scanner scanner = new Scanner(System.in)) {
             int count = 0;
